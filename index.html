@@ -9,12 +9,10 @@
 <body ng-app="FlappyApplication">
 <div ng-controller="FlappyController">
 
-<div flappy-header></div>
+	<div flappy-header></div>
 
-	<p>{{message}}</p>
-</div>
+		<p>{{message}}</p>
 
-<input type="button" value="submit">
 	<div class="jumbotron">
 		<h1>
 			<img src="image/flappy_title_logo.png" alt="flappy hero shot">flappy
@@ -25,8 +23,10 @@
 			<a
 				href="https://play.google.com/store/apps/details?id=com.mame.flappy"><img
 				src="image/googleplay.png" alt="google play"></a>
+		<button type="button" class="btn btn-primary btn-lg" ng-click="buttonClicked();">Get started</button>
 		</p>
 	</div>
+</div>
 
 <div flappy-footer></div>
 	
